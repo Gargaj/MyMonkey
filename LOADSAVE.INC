@@ -33,9 +33,8 @@ begin
    a[i].name:=s;
    move(raw[i*16+14],a[i].score,2);
   end;
+  close(mf);
  end;
-
- close(mf);
 
 end;
 
